@@ -9,11 +9,15 @@
 /* NAVBAR */
 
 .Navbar {
+  position: fixed;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #e8e8e8;
   height: 12vh;
+  width: 100vw;
+  z-index: 100;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.372);
 }
 
 .Navbar ul {
@@ -35,4 +39,126 @@
 
 .Navbar ul li a:hover {
   color: #dd4d6f;
+}
+
+/* COVER */
+
+#Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #023854;
+  height: 100vh;
+  width: 100vw;
+}
+
+#Home img {
+  height: 719px;
+  width: 850px;
+}
+
+#Home h1 {
+  color: aliceblue;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 3.5rem;
+}
+
+#Home p {
+  font-size: 1.2rem;
+  color: #dd4d6f;
+  margin-top: 1rem;
+}
+.Start {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: aliceblue;
+  background-color: #dd4d6f;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 1.5rem;
+  margin-top: 1rem;
+  box-shadow: 2px 2px 4px #000000;
+}
+.Start:hover {
+  background-color: #033e5c;
+}
+
+.Read {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: aliceblue;
+  background-color: #033e5c;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 1.5rem;
+  margin-top: 1rem;
+  box-shadow: 2px 2px 4px #000000;
+}
+
+.Read:hover {
+  background-color: #dd4d6f;
+}
+
+/* SHORTY */
+
+.Shorty {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #023854;
+  height: 20vh;
+  width: 100vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.372),
+    0 6px 20px 0 rgba(0, 0, 0, 0.297);
+  gap: 8rem;
+}
+
+.Bit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.Bit h2 {
+  font-size: 5rem;
+  color: #dd4d6f;
+  font-weight: 900;
+}
+.Bit h3 {
+  font-size: 1.6rem;
+  color: aliceblue;
+  text-transform: uppercase;
+}
+
+/* ACCEPS */
+
+.Acceps {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #023854;
+}
+
+.Acceps h2 {
+  font-size: 8rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #dd4d6f;
+  line-height: 8.5rem;
+  text-align: center;
+}
+
+.Acceps i {
+  font-size: 10rem;
+  color: aliceblue;
+  margin-top: 1.5rem;
 }
