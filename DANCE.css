@@ -40,6 +40,13 @@
 .Navbar ul li a:hover {
   color: #dd4d6f;
 }
+.Navbar i {
+  font-size: 2.5rem;
+  color: #023854;
+}
+.Navbar i:hover {
+  color: #dd4d6f;
+}
 
 /* COVER */
 
@@ -161,4 +168,138 @@
   font-size: 10rem;
   color: aliceblue;
   margin-top: 1.5rem;
+}
+
+/* ABOUT */
+
+#About {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #dd4d6f;
+  gap: 6rem;
+}
+
+#About img {
+  height: 700px;
+}
+
+#About h2 {
+  font-size: 6rem;
+  font-weight: 900;
+  color: #023854;
+  text-transform: uppercase;
+}
+
+#About p {
+  color: aliceblue;
+  font-size: 1.5rem;
+}
+
+.List {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.List li {
+  color: aliceblue;
+  font-weight: 100;
+  list-style: circle;
+  list-style-type: style color;
+}
+
+#About button {
+  font-size: 1.8rem;
+  background-color: #023854;
+  color: aliceblue;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.3rem 1rem 0.5rem 1rem;
+  margin-top: 1rem;
+  box-shadow: 2px 2px 4px #00000060;
+}
+
+/* Course */
+
+#Course {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #023854;
+}
+
+#Course h2 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+
+#Course span {
+  font-size: 7rem;
+  font-weight: 900;
+  color: #dd4d6f;
+}
+
+.Course_Cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.Course_Card {
+  display: flex;
+  flex-direction: column;
+  height: 23rem;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-color: #dd4d6f;
+  border-width: 0.2rem;
+  padding: 1.8rem;
+}
+
+.Course_Card h3 {
+  color: aliceblue;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.Course_Card p {
+  color: #dd4d6f;
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.Course_Card button {
+  background-color: #dd4d6f;
+  color: aliceblue;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 2.5rem;
+  padding: 0.3rem 1rem 0.4rem 1rem;
+}
+
+#Course button {
+  background-color: #dd4d6f;
+  color: aliceblue;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 2.5rem;
+  padding: 0.3rem 1rem 0.4rem 1rem;
+  margin-top: 3rem;
 }
